@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nlsthzn.workspaces",
+  "name": "Symbolic Workspaces",
+  "version": "1.0.0",
+  "author": "Omarchy contributors; customized by thenailedone",
+  "license": "MIT",
+  "description": "Symbolic workspace indicators with a combined focused-state marker.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Symbolic Workspaces",
+    "description": "Symbolic workspace indicators with a combined focused-state marker",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}

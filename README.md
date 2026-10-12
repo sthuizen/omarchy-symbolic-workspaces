@@ -25,7 +25,7 @@ Additional live workspaces up to 10 retain numeric labels.
 Once this repository is published, install it with:
 
 ```bash
-omarchy plugin add https://github.com/thenailedone/omarchy-symbolic-workspaces.git --enable
+omarchy plugin add https://github.com/sthuizen/omarchy-symbolic-workspaces.git --enable
 ```
 
 The manifest declares that this plugin was cloned from `omarchy.workspaces`,
